@@ -1,0 +1,12 @@
+{
+  "origin.sandevistan_origin.sandevistan.name": "Сандевистан",
+  "origin.sandevistan_origin.sandevistan.description": "Уличный раннер с имплантом Dynalar Sandevistan в позвоночнике. Мир ползёт, а ты двигаешься на полной скорости.",
+  "power.sandevistan_origin.sandevistan_toggle.name": "Dynalar Sandevistan",
+  "power.sandevistan_origin.sandevistan_toggle.description": "Включается/выключается клавишей основной способности. Время замедляется в радиусе 15 блоков, вы получаете ускорение, расширенный угол обзора и оставляете радужные послеобразы. Если держать имплант включённым слишком долго (около 30 с), он перегреется: отключится, нанесёт урон и заблокируется на 15 с. Нужен голод выше 3 окороков.",
+  "power.sandevistan_origin.cyberware_strain.name": "Нагрузка киберваре",
+  "power.sandevistan_origin.cyberware_strain.description": "Имплант берёт своё: у вас на 2 сердца меньше. Использование быстро сжигает голод.",
+  "effect.sandevistan_origin.sandevistan": "Сандевистан",
+  "effect.sandevistan_origin.overheated": "Перегрев",
+  "sandevistan_origin.heat": "САНДЕВИСТАН",
+  "sandevistan_origin.cooldown": "ПЕРЕГРЕВ"
+}

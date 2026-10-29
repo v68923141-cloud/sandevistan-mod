@@ -1,0 +1,7 @@
+{
+  "type": "origins:exhaust",
+  "hidden": true,
+  "interval": 20,
+  "exhaustion": 1.2,
+  "condition": { "type": "apoli:power_active", "power": "sandevistan_origin:sandevistan_toggle" }
+}

@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+group = 'com.example.sandevistan'
+version = '1.0.0'
+
+base { archivesName = 'sandevistan_origin-1.20.1' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            mods { sandevistan_origin { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run')
+            mods { sandevistan_origin { source sourceSets.main } }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories { }
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    // Origins/Apoli/Calio нужны только на рантайме (кладите jar-ы в run/mods).
+    // Код мода от них не зависит — вся связка идёт через data-пак Origins.
+}
+
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand 'version': project.version }
+}
+
+tasks.named('jar') { finalizedBy 'reobfJar' }

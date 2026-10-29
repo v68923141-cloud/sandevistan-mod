@@ -1,0 +1,17 @@
+{
+  "type": "apoli:action_over_time",
+  "hidden": true,
+  "interval": 5,
+  "entity_action": {
+    "type": "apoli:apply_effect",
+    "effect": {
+      "effect": "sandevistan_origin:sandevistan",
+      "duration": 15,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  },
+  "condition": { "type": "apoli:power_active", "power": "sandevistan_origin:sandevistan_toggle" }
+}

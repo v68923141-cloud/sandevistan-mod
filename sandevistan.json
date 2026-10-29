@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "sandevistan_origin:sandevistan_toggle",
+    "sandevistan_origin:sandevistan_effect",
+    "sandevistan_origin:sandevistan_drain",
+    "sandevistan_origin:cyberware_strain"
+  ],
+  "icon": { "item": "minecraft:clock" },
+  "order": 10,
+  "impact": 2
+}

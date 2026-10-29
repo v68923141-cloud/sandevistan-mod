@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="sandevistan_origin"
+version="${version}"
+displayName="Sandevistan Origin"
+description='''
+Addon for Origins: adds the "Sandevistan" origin with a Dynalar Sandevistan implant.
+Slows time in a 15 block radius and leaves rainbow afterimages.
+'''
+
+[[dependencies.sandevistan_origin]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sandevistan_origin]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sandevistan_origin]]
+    modId="origins"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"

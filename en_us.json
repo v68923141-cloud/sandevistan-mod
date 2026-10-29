@@ -1,0 +1,12 @@
+{
+  "origin.sandevistan_origin.sandevistan.name": "Sandevistan",
+  "origin.sandevistan_origin.sandevistan.description": "A street runner with a Dynalar Sandevistan implanted in the spine. The world crawls while you move at full speed.",
+  "power.sandevistan_origin.sandevistan_toggle.name": "Dynalar Sandevistan",
+  "power.sandevistan_origin.sandevistan_toggle.description": "Toggle the implant (primary ability key). Time slows down within 15 blocks around you, you gain speed, a widened field of view and leave rainbow afterimages. Running it too long (about 30 s) overheats the implant: it shuts down, hurts you and locks for 15 s. Needs food above 3 drumsticks.",
+  "power.sandevistan_origin.cyberware_strain.name": "Cyberware Strain",
+  "power.sandevistan_origin.cyberware_strain.description": "The implant takes its toll: you have 2 fewer hearts. Using it burns hunger fast.",
+  "effect.sandevistan_origin.sandevistan": "Sandevistan",
+  "effect.sandevistan_origin.overheated": "Overheated",
+  "sandevistan_origin.heat": "SANDEVISTAN",
+  "sandevistan_origin.cooldown": "OVERHEATED"
+}
